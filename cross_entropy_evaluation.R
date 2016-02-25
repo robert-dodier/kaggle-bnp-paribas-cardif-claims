@@ -92,18 +92,22 @@ cross.entropy.continuous <- function (X, C) {
 }
 
 scores.continuous <- function (X, C) {
+  n <- length (X)
   X1 <- X[C == 1]
+  n1 <- length (X1)
   X1.mean <- mean (X1)
   X1.sd <- sd (X1)
   X0 <- X[C == 0]
+  n0 <- length (X0)
   X0.mean <- mean (X0)
   X0.sd <- sd (X0)
+  X.sd.pooled <- sqrt (n0/n*X0.sd^2 + n1/n*X1.sd^2)
 
   pC1 <- base.rate (C)
   pC0 <- 1 - pC1
 
-  Z1 <- (X - X1.mean)/X1.sd
-  Z0 <- (X - X0.mean)/X0.sd
+  Z1 <- (X - X1.mean)/X.sd.pooled
+  Z0 <- (X - X0.mean)/X.sd.pooled
 
-  1/(1 + (pC0/pC1)*(X1.sd/X0.sd)*exp(-(1/2)*(Z0^2 - Z1^2)))
+  1/(1 + (pC0/pC1)*exp(-(1/2)*(Z0^2 - Z1^2)))
 }
