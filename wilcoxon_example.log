@@ -1,0 +1,27 @@
+(%i1) makelist([random(1.0), random(2), random(10.0), random(10), random(100.0), random(100), random(2)], 1000) $
+(%i2) write_data (%, "wilcoxon_example.csv", 'comma);
+(%o2)                                done
+(%i3) xc : read_matrix ("wilcoxon_example.csv", 'comma) $
+(%i4) length(xc);
+(%o4)                                1000
+(%i5) load(amatrix);
+(%o5) /usr/local/share/maxima/branch_5_37_base_126_g36028d1_dirty/share/amatri\
+x/amatrix.mac
+(%i6) load(wilcoxon);
+(%o6) /usr/local/share/maxima/branch_5_37_base_126_g36028d1_dirty/share/amatri\
+x/wilcoxon.mac
+(%i7) XC:old2new_matrix(xc) $
+(%i8) wilcoxon(XC[all,1], XC[all,7]);
+                                    124027
+(%o8)                               ------
+                                    248479
+(%i9) wilcoxon(XC[all,1], XC[all,7]),numer;
+(%o9)                          0.499144796944611
+(%i10) float(%o8);
+(%o10)                         0.499144796944611
+(%i11) linel:125;
+(%o11)                                                       125
+(%i12) makelist(float(wilcoxon(XC[all,i], XC[all,7])), i, 6);
+(%o12) [0.499144796944611, 0.4976094559298774, 0.5138583139822681, 0.5093287561524313, 0.5280124276095767, 
+                                                                                                          0.4828899021647705]
+(%i13) 
