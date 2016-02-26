@@ -1,0 +1,136 @@
+> source ("informative_missingness_evaluation.R")
+base rate=0.761199
+ID: no missing data
+target: no missing data
+v1: #missing=49832, rate for missing data=0.770108
+v2: #missing=49796, rate for missing data=0.770142
+v3: no missing data
+v4: #missing=49796, rate for missing data=0.770142
+v5: #missing=48624, rate for missing data=0.771574
+v6: #missing=49832, rate for missing data=0.770108
+v7: #missing=49832, rate for missing data=0.770108
+v8: #missing=48619, rate for missing data=0.771550
+v9: #missing=49851, rate for missing data=0.770115
+v10: #missing=84, rate for missing data=0.988095
+v11: #missing=49836, rate for missing data=0.770106
+v12: #missing=86, rate for missing data=0.988372
+v13: #missing=49832, rate for missing data=0.770108
+v14: #missing=4, rate for missing data=1.000000
+v15: #missing=49836, rate for missing data=0.770106
+v16: #missing=49895, rate for missing data=0.770097
+v17: #missing=49796, rate for missing data=0.770142
+v18: #missing=49832, rate for missing data=0.770108
+v19: #missing=49843, rate for missing data=0.770098
+v20: #missing=49840, rate for missing data=0.770124
+v21: #missing=611, rate for missing data=0.875614
+v22: no missing data
+v23: #missing=50675, rate for missing data=0.770222
+v24: no missing data
+v25: #missing=48619, rate for missing data=0.771550
+v26: #missing=49832, rate for missing data=0.770108
+v27: #missing=49832, rate for missing data=0.770108
+v28: #missing=49832, rate for missing data=0.770108
+v29: #missing=49832, rate for missing data=0.770108
+v30: no missing data
+v31: no missing data
+v32: #missing=49832, rate for missing data=0.770108
+v33: #missing=49832, rate for missing data=0.770108
+v34: #missing=111, rate for missing data=0.918919
+v35: #missing=49832, rate for missing data=0.770108
+v36: #missing=48624, rate for missing data=0.771574
+v37: #missing=49843, rate for missing data=0.770098
+v38: no missing data
+v39: #missing=49836, rate for missing data=0.770106
+v40: #missing=111, rate for missing data=0.918919
+v41: #missing=49832, rate for missing data=0.770108
+v42: #missing=49832, rate for missing data=0.770108
+v43: #missing=49836, rate for missing data=0.770106
+v44: #missing=49796, rate for missing data=0.770142
+v45: #missing=49832, rate for missing data=0.770108
+v46: #missing=48619, rate for missing data=0.771550
+v47: no missing data
+v48: #missing=49796, rate for missing data=0.770142
+v49: #missing=49832, rate for missing data=0.770108
+v50: #missing=86, rate for missing data=0.988372
+v51: #missing=50678, rate for missing data=0.770216
+v52: no missing data
+v53: #missing=49836, rate for missing data=0.770106
+v54: #missing=48619, rate for missing data=0.771550
+v55: #missing=49832, rate for missing data=0.770108
+v56: no missing data
+v57: #missing=49832, rate for missing data=0.770108
+v58: #missing=49836, rate for missing data=0.770106
+v59: #missing=49796, rate for missing data=0.770142
+v60: #missing=49832, rate for missing data=0.770108
+v61: #missing=49796, rate for missing data=0.770142
+v62: no missing data
+v63: #missing=48619, rate for missing data=0.771550
+v64: #missing=49796, rate for missing data=0.770142
+v65: #missing=49840, rate for missing data=0.770124
+v66: no missing data
+v67: #missing=49832, rate for missing data=0.770108
+v68: #missing=49836, rate for missing data=0.770106
+v69: #missing=49895, rate for missing data=0.770097
+v70: #missing=48636, rate for missing data=0.771548
+v71: no missing data
+v72: no missing data
+v73: #missing=49836, rate for missing data=0.770106
+v74: no missing data
+v75: no missing data
+v76: #missing=49796, rate for missing data=0.770142
+v77: #missing=49832, rate for missing data=0.770108
+v78: #missing=49895, rate for missing data=0.770097
+v79: no missing data
+v80: #missing=49851, rate for missing data=0.770115
+v81: #missing=48624, rate for missing data=0.771574
+v82: #missing=48624, rate for missing data=0.771574
+v83: #missing=49832, rate for missing data=0.770108
+v84: #missing=49832, rate for missing data=0.770108
+v85: #missing=50682, rate for missing data=0.770234
+v86: #missing=49832, rate for missing data=0.770108
+v87: #missing=48663, rate for missing data=0.771531
+v88: #missing=49832, rate for missing data=0.770108
+v89: #missing=48619, rate for missing data=0.771550
+v90: #missing=49836, rate for missing data=0.770106
+v91: no missing data
+v92: #missing=49843, rate for missing data=0.770098
+v93: #missing=49832, rate for missing data=0.770108
+v94: #missing=49832, rate for missing data=0.770108
+v95: #missing=49843, rate for missing data=0.770098
+v96: #missing=49832, rate for missing data=0.770108
+v97: #missing=49843, rate for missing data=0.770098
+v98: #missing=48654, rate for missing data=0.771530
+v99: #missing=49832, rate for missing data=0.770108
+v100: #missing=49836, rate for missing data=0.770106
+v101: #missing=49796, rate for missing data=0.770142
+v102: #missing=51316, rate for missing data=0.769195
+v103: #missing=49832, rate for missing data=0.770108
+v104: #missing=49832, rate for missing data=0.770108
+v105: #missing=48658, rate for missing data=0.771507
+v106: #missing=49796, rate for missing data=0.770142
+v107: no missing data
+v108: #missing=48624, rate for missing data=0.771574
+v109: #missing=48624, rate for missing data=0.771574
+v110: no missing data
+v111: #missing=49832, rate for missing data=0.770108
+v112: no missing data
+v113: no missing data
+v114: #missing=30, rate for missing data=0.733333
+v115: #missing=49895, rate for missing data=0.770097
+v116: #missing=49836, rate for missing data=0.770106
+v117: #missing=48624, rate for missing data=0.771574
+v118: #missing=49843, rate for missing data=0.770098
+v119: #missing=50680, rate for missing data=0.770225
+v120: #missing=49836, rate for missing data=0.770106
+v121: #missing=49840, rate for missing data=0.770124
+v122: #missing=49851, rate for missing data=0.770115
+v123: #missing=50678, rate for missing data=0.770216
+v124: #missing=48619, rate for missing data=0.771550
+v125: no missing data
+v126: #missing=49832, rate for missing data=0.770108
+v127: #missing=49832, rate for missing data=0.770108
+v128: #missing=48624, rate for missing data=0.771574
+v129: no missing data
+v130: #missing=49843, rate for missing data=0.770098
+v131: #missing=49895, rate for missing data=0.770097
+> 
